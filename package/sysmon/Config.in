@@ -1,0 +1,5 @@
+config BR2_PACKAGE_SYSMON
+	bool "sysmon"
+	help
+	  Prints uptime, CPU temperature and available memory
+	  to the console every 5 seconds.
