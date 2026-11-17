@@ -2,7 +2,9 @@
 
 A custom embedded Linux image for the Raspberry Pi 4, built with Buildroot. It includes my own package, sysmon, which starts at boot and prints uptime, CPU temperature and free memory to the console every 5 seconds.
 
-(video here)
+
+https://github.com/user-attachments/assets/dc15275e-0d1f-4c7d-9bd7-956fffb57e24
+
 
 The package is kept outside the Buildroot tree as a BR2_EXTERNAL, so Buildroot itself is not modified. sysmon is cross-compiled for ARM64 by the Buildroot toolchain.
 
